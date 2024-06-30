@@ -1,0 +1,113 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: rgba(230, 230, 255, 0.986);
+    overflow: hidden; /* Evita a rolagem */
+}
+
+.container {
+    background-color: rgba(10, 13, 66, 0.925);
+    height: 410px;
+    width: 280px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: rgb(240, 240, 255);
+    position: relative;
+}
+
+.calculadoraForm {
+    width: 100%;
+}
+
+.diviInput {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(240, 240, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    margin-bottom: 1px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 120px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkblue;
+}
+
+#divresultado {
+    position: fixed;
+    top: 50%;
+    left: calc(50% + 200px);
+    transform: translateY(-50%);
+    text-align: left;
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0.678);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+#itensUl {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+#itensUl li {
+    background-color: rgba(4, 0, 37, 0.493);
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+h1, h2 {
+    margin: 0 0 20px 0;
+    color: rgb(240, 240, 255);
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+    padding: 0;
+    height: 30px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
