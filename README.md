@@ -1,2 +1,3 @@
-![Captura de Tela](/imagens/churrasco.jpg)
+![Captura de Tela](Imagens/churrasco.jpg)
+
 
